@@ -9,7 +9,8 @@
 html, body{
     min-height: 100vh;
     background-color: white;
-
+    background-position: right center;
+    background-size: cover;
 }
 
 header > h1 {
@@ -47,4 +48,57 @@ section#rede-social img:hover{
 }
 section.geral{
     text-align: center;
+    
 }
+section#img01{
+    background-image: url(../imagens/padaria.jpg);
+    background-position: right center;
+    background-size: cover;
+ }
+
+ section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.5em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+ }
+
+ section.geral{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.699);
+    background-attachment: fixed;
+}
+
+section.geral > p{
+    display: inline-block;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.397);
+    text-shadow: 1px 1px 0px black;
+     }
+
+p.p1{
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    color: black;
+}
+
+ section#img02{
+    background-image: url(../imagens/hortifruti-1.jpg );
+    background-position: right center;
+    background-size: cover;
+ }
+
+ section#img03{
+    background-image: url(../imagens/frango\ assado.jpg );
+    background-position: right center;
+    background-size: cover;
+ }
