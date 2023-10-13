@@ -19,7 +19,7 @@ header > h1 {
  }
 
  header {
-    background-color: black;
+    background-color: rgb(14, 13, 13);
     color: white;
     text-align: center;
  }
@@ -44,4 +44,7 @@ section#rede-social img:hover{
     transform: translate(-3px, -3px );
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
     transition: transform .3s, border 1s;
+}
+section.geral{
+    text-align: center;
 }
